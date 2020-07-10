@@ -1,0 +1,82 @@
+/* header part start */
+header{
+   background-color: #F0FFF0;
+   height: 576px;
+}
+.container{
+    margin-bottom: 60px;
+}
+.navbar-brand img{
+    width: 20%;
+}
+.nav-item{  
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 24px;
+    color: black;
+    flex: none;
+    order: 0;
+    align-self: center;
+    margin: 0px 10px;
+    list-style: none;
+}
+button{    
+    background-color: #21B573;
+    border-radius: 33px;
+    border: none;
+}
+button a{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 19px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    align-self: center;
+    margin: 0px 10px;
+}
+button{    
+    background-color: #21B573;
+    border-radius: 33px;
+    border: none;
+}
+h6{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FD511A;
+}
+h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 70px;
+    color: #000000;
+}
+span{
+    color: #21B573;
+}
+p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;    
+    line-height: 36px;
+    color: #6C6B6B;
+}
+.banner img{
+    width: 100%;
+}
+/* header part end */
+
+
+/* main part start */
+
+/* main part end */
