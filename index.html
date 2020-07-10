@@ -10,9 +10,9 @@
 </head>
 <body>
     <!-- header part start -->
-    <header>
+    <header class="container-fluid">
         <!-- navigation part start -->
-        <div class="container menu-bar">
+        <section class="container menu-bar">
             <nav class="navbar navbar-expand-lg navbar-light  bg-ligh">
 
                 <a class="navbar-brand" href="index.html"><img src="images/icon/Logo.png" alt="Logo"></a>
@@ -42,25 +42,28 @@
                     <button><a class="nav-link" href="#">Sing in</a></button>
                 </li>  
             </nav>
-        </div>
+        </section>
         <!-- navigation part end -->
 
 
-        <!-- banner part start -->
-        <div class="container banner">
-            <div class="row">
-                <div class="col-md-6">
-                    <h6>Are you ready to Learn?</h6>
-                    <h1>Learn With fun <br>on <span>any schedule</span></h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit. Varius blandit facilisis quam netus.</p>                    
+        <!-- banner part start -->        
+        <section class="container banner py-5">
+            <div class="row align-items-center">
+                <div class="col-md-6 col-sm-12 slide-text">
+                    <p class="text-danger">Are you ready to learn ?</p>
+                    <h1 class="display-4 font-weight-bolder">Learn with fun <br>on<span class="text-success"> any Shedule</span></h1>
+                    <p id="overview">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, reprehenderit.</p>
+
                     <button><a class="nav-link" href="#">Get Started</a></button>
                 </div>
-                <div class="col-md-6 img-fluid">
-                    <img src="images/photos/Illustration.png" alt="banner">
+
+                <div class="col-md-6 col-sm-12 img-fluid">
+                    <img src="images/photos/Illustration.png" class="d-block w-100" alt="banner">
                 </div>
             </div>
-        </div>
+        </section>       
         <!-- banner part end -->
+
     </header>
     <!-- header part end -->
 
@@ -68,15 +71,246 @@
 
     <!-- main part start -->
     <main>
-        
+        <!-- box-highlighter part start -->
+        <section class="container box-highlighter my-5">
+            <div class="row">                
+                <div class="card-deck">
+
+                    <div class="card d-flex col-md-3 col-sm-12 category">
+                        <img src="images/icon/book.png" class="card-img-top" alt="Book">
+                        <div class="card-body">
+                            <h3 class="card-title">1500+ Topic</h3>                            
+                            <p class="card-text"><small class="text-muted">Learn Anythings</small></p>
+                        </div>
+                    </div>
+
+                    <div class="card d-flex col-md-3 col-sm-12 category">
+                        <img src="images/icon/Student.png" class="card-img-top" alt="Student">
+                        <div class="card-body">
+                            <h3 class="card-title">1800+ Students</h3>                            
+                            <p class="card-text"><small class="text-muted">Learn Anythings</small></p>
+                        </div>
+                    </div>
+
+                    <div class="card d-flex col-md-3 col-sm-12 category">
+                        <img src="images/icon/Test.png" class="card-img-top" alt="Exam Test">
+                        <div class="card-body">
+                            <h3 class="card-title">9K+ Test Token</h3>                            
+                            <p class="card-text"><small class="text-muted">Learn Anythings</small></p>
+                        </div>
+                    </div>
+
+                    <div class="card d-flex col-md-3 col-sm-12 category">
+                        <img src="images/icon/Students.png" class="card-img-top" alt="Students">
+                        <div class="card-body">
+                            <h3 class="card-title">2000+ Student</h3>                            
+                            <p class="card-text"><small class="text-muted">Learn Anythings</small></p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- box-highlighter part end -->
+
+
+        <!-- online-courses part start -->
+        <section class="container online-courses">
+            <h2>Online Courses</h2>
+            
+            <div class="row">
+                <div class="card-deck">
+
+                    <div class="card d-flex col-md-4 col-sm-12 courses">
+                        <img src="images/photos/Morder pyschology.png" class="card-img-top" alt="Online Courses">
+                        <div class="card-body">
+                            <h3 class="card-title">Modern Psychology</h3>                           
+                            <p class="card-text"><small class="text-muted">Designation</small></p>
+                            <button><a class="nav-link" href="#">Buy Course</a></button>
+                            <div class="d-flex bd-highlight mb-3">
+                                <div class="p-2 bd-highlight course-section-icon">
+                                    <img src="images/icon/calendar.png" alt="">Start 20 April, 2021
+                                </div>
+                                <div class="ml-auto p-2 bd-highlight course-section-icon">
+                                    <img src="images/icon/people.png" alt="">60 seats
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card d-flex col-md-4 col-sm-12 courses">
+                        <img src="images/photos/Morder psyc.png" class="card-img-top" alt="Online Courses">
+                        <div class="card-body">
+                            <h3 class="card-title">Modern Psychology</h3>                           
+                            <p class="card-text"><small class="text-muted">Designation</small></p>
+                            <button><a class="nav-link" href="#">Buy Course</a></button>
+                            <div class="d-flex bd-highlight mb-3">
+                                <div class="p-2 bd-highlight course-section-icon">
+                                    <img src="images/icon/calendar.png" alt="">Start 20 April, 2021
+                                </div>
+                                <div class="ml-auto p-2 bd-highlight course-section-icon">
+                                    <img src="images/icon/people.png" alt="">60 seats
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card d-flex col-md-4 col-sm-12 courses">
+                        <img src="images/photos/Morder pychons.png" class="card-img-top" alt="Online Courses">
+                        <div class="card-body">
+                            <h3 class="card-title">Modern Psychology</h3>                            
+                            <p class="card-text"><small class="text-muted">Designation</small></p>
+                            <button><a class="nav-link" href="#">Buy Course</a></button>
+                            <div class="d-flex bd-highlight mb-3">
+                                <div class="p-2 bd-highlight course-section-icon">
+                                    <img src="images/icon/calendar.png" alt="">Start 20 April, 2021
+                                </div>
+                                <div class="ml-auto p-2 bd-highlight course-section-icon">
+                                    <img src="images/icon/people.png" alt="">60 seats
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>         
+            </div>
+        </section>
+        <!-- online-courses part end -->
+
+
+        <!-- testimonial part start -->
+        <section id="testimonial">
+            <div class="container">
+                <h2 class="d-flex justify-content-center font-weight-bold">Testimonial</h2>
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item h-100 active">
+                            <div class="row align-items-center">
+                                <div class="col-6 mx-auto mb-4 col-sm-3">
+                                    <img src="images/Photos/Man.png" class="w-100 rounded-circle">
+                                </div>
+                                <div class="col-sm-7 ml-auto">
+                                    <p class="text-danger">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas quia in iure nostrum, at, optio impedit saepe obcaecati ab totam numquam tempore eligendi sed dolore quo veniam sit quae rem?</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item h-100">
+                            <div class="row align-items-center">
+                                <div class="col-6 mx-auto mb-4 col-sm-3">
+                                    <img src="images/Photos/Man.png" class="w-100 rounded-circle">
+                                </div>
+                                <div class="col-sm-7 ml-auto">
+                                    <p class="text-warning">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dolorem rerum suscipit facere odio ab amet maxime similique. Quidem quisquam cum necessitatibus atque et provident est unde placeat eveniet voluptatum.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item h-100">
+                            <div class="row align-items-center">
+                                <div class="col-6 mx-auto mb-4 col-sm-3">
+                                    <img src="images/Photos/Man.png" class="w-100 rounded-circle">
+                                </div>
+                                <div class="col-sm-7 ml-auto">
+                                    <p class="text-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates assumenda dignissimos nobis officiis dolor obcaecati doloremque, cum ex natus. Distinctio repellendus accusamus quas fugiat laboriosam enim ullam incidunt non magnam!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- testimonial part end -->
+
+
+        <!-- message part start -->        
+        <section class="container message px-lg-5">
+            <h2>Get In Touch</h2>
+
+            <div class="row mx-lg-n5 ">
+                <div class="border col-md-6 col-sm-12">
+                    <iframe class="rounded-lg shadow w-100" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14591.547601535554!2d90.40310325!3d23.893628900000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sbn!2sbd!4v1594400514201!5m2!1sbn!2sbd" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+
+                <div class="border col-md-6 col-sm-12 text-secondary">
+                    <form>
+
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input id="name" class="form-control" type="text" placeholder="Enter Your Name">
+                        </div>  
+
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email Address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Email Address">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>                   
+
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                      </form>
+                </div>
+            </div>
+        </section>
+        <!-- message part end -->
+
     </main>
     <!-- main part end -->
 
 
-
+    <!-- footer part start -->
     <footer>
-
+        <section class="container-fluid bg-dark">
+            <div class="container py-5">
+                <div class="row  text-light">
+                    <div class="col-md-4 col-sm-12">
+                        <div>
+                            <p>Millions of people of all ages and from around the world are improving their lives with us</p>        
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-sm-12">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <ul class="list-unstyled">
+                                    <li><h5 class=" font-weight-bolder">Course</h5></li>
+                                    <li>Graphic Design</li>
+                                    <li>Web Design</li>
+                                    <li>Business</li>
+                                    <li>Marketing</li>
+                                    <li>Engineering</li>  
+                                  </ul>
+                            </div>
+                            <div class="col-md-4">
+                                <ul class="list-unstyled">
+                                    <li><h5 class="font-weight-bolder">Terms</h5></li>
+                                    <li>Graphic Design</li>
+                                    <li>Web Design</li>
+                                    <li>Business</li>
+                                    <li>Marketing</li>
+                                    <li>Engineering</li>  
+                                  </ul>
+                            </div>
+                            <div class="col-md-4">
+                                <ul class="list-unstyled">
+                                    <li><h5 class=" font-weight-bolder">Usefull Links</h5></li>
+                                    <li>Graphic Design</li>
+                                    <li>Web Design</li>
+                                    <li>Business</li>
+                                    <li>Marketing</li>
+                                    <li>Engineering</li>                                    
+                                  </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <p class="text-center text-secondary pb-2 mb-0">Copyright &copy; 2020 E-School | All Rights Reserved</p>
+        </section>
     </footer>
+   <!--  footer part end -->
 
 
 
